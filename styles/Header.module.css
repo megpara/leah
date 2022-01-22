@@ -1,9 +1,10 @@
 .header {
   padding: 25px;
+  background-color: #efcb9b;
 }
 .menu {
   color: #5880a5;
-  font-family: forum;
+  font-family: 'Forum', cursive;
   font-size: 20px;
 }
 .menuItem {

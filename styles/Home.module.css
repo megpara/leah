@@ -1,9 +1,9 @@
 .main {
   height: 100vh;
-  background-color: #efcb9b;
 }
 .colorBlock {
   height: 50vh;
+  border-radius: 25px;
 }
 .titleContainer {
   position: absolute;
@@ -15,7 +15,7 @@
 }
 .title {
   color: white;
-  font-family: forum;
+  font-family: 'Forum', cursive;
   width: 700px;
   text-align: center;
   font-size: 100px;
@@ -31,8 +31,19 @@
   text-transform: lowercase;
 }
 .scroll {
-  font-family: forum;
+  font-family: 'Forum', cursive;
   font-size: 18px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery img {
+  flex: 0 0 30%;
+  width: 100px;
+  margin: 15px;
+  border-radius: 25px;
 }
 
 @media (max-width: 600px) {
