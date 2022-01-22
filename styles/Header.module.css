@@ -1,0 +1,22 @@
+.header {
+  padding: 25px;
+}
+.menu {
+  color: #5880a5;
+  font-family: forum;
+  font-size: 20px;
+}
+.menuItem {
+  display: inline;
+  padding-right: 15px;
+  text-transform: lowercase;
+}
+.icons {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+.icon {
+  height: 20px;
+  margin-left: 12px;
+}

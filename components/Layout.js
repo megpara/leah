@@ -7,6 +7,10 @@ export default function Layout({ children }) {
         <title>Cookies by Leah Lane</title>
         <meta name="description" content="Cookies by Leah Lane" />
         <link rel="icon" href="/favicon.png" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Forum&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       {children}
     </div>
