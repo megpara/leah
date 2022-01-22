@@ -1,10 +1,11 @@
 .header {
-  padding: 25px;
-  background-color: #efcb9b;
+  padding: 35px;
+  display: flex;
 }
 .menu {
   color: #5880a5;
-  font-family: 'Forum', cursive;
+  font-family: "Work Sans";
+  font-weight: 200;
   font-size: 20px;
 }
 .menuItem {
@@ -13,9 +14,12 @@
   text-transform: lowercase;
 }
 .icons {
-  position: absolute;
-  right: 25px;
-  top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
 }
 .icon {
   height: 20px;

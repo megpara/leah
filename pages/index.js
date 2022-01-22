@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Layout from "../components/Layout";
 import Modal from "../components/Modal";
@@ -23,22 +24,15 @@ export default function Home() {
         <div className={styles.titleContainer}>
           <div className={styles.title}>Cookies by Leah Lane</div>
         </div>
-        <div className={styles.titleContainer}>
-          <img
-            src="headshot.JPG"
-            style={{ width: "350px", borderRadius: "25px" }}
-          />
-        </div>
-        <div
-          className={styles.colorBlock}
-          style={{ backgroundColor: "#efcb9b" }}
-        >
-          <Header />
-        </div>
-        <div className={styles.colorBlock} style={{ backgroundColor: "white" }}>
-          <div className={styles.scrollContainer}>
-            <div className={styles.scroll}>(Scroll)</div>
+        <div className={styles.imgContainer}>
+          <div className={styles.smallImgContainer}>
+            <img src="cake.JPG" className={styles.smallImg} />
           </div>
+          <img src="headshot.JPG" className={styles.headshot} />
+        </div>
+        <Header />
+        <div className={styles.scrollContainer}>
+          <div className={styles.scroll}>(Scroll)</div>
         </div>
       </div>
       <div className={styles.gallery}>
@@ -46,6 +40,7 @@ export default function Home() {
           <img src={image} />
         ))}
       </div>
+      <Footer />
     </Layout>
   );
 }

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Saudagar;
+  src: url("/Saudagar.ttf");
+}
 html,
 body {
   padding: 0;

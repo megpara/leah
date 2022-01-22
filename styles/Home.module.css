@@ -1,9 +1,26 @@
 .main {
   height: 100vh;
 }
-.colorBlock {
-  height: 50vh;
-  border-radius: 25px;
+.imgContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.headshot {
+  justify-content: right;
+}
+.smallImgContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dcd5ce;
+  z-index: -1;
+}
+.smallImg {
+  width: 400px;
 }
 .titleContainer {
   position: absolute;
@@ -15,15 +32,16 @@
 }
 .title {
   color: white;
-  font-family: 'Forum', cursive;
+  font-family: Saudagar;
   width: 700px;
   text-align: center;
-  font-size: 100px;
+  font-size: 107px;
   z-index: 2;
+  line-height: 108px;
 }
 .scrollContainer {
   position: absolute;
-  bottom: 25px;
+  bottom: 35px;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -31,19 +49,20 @@
   text-transform: lowercase;
 }
 .scroll {
-  font-family: 'Forum', cursive;
+  font-family: 'Work Sans';
+  font-weight: 200;
   font-size: 18px;
 }
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 50px 0;
 }
 .gallery img {
   flex: 0 0 30%;
   width: 100px;
   margin: 15px;
-  border-radius: 25px;
 }
 
 @media (max-width: 600px) {

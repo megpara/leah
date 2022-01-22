@@ -19,13 +19,13 @@
   right: 25px;
 }
 .modal img {
-  width: 44px;
-  padding: 12px 0;
+  width: 32px;
+  padding: 16px 0;
 }
 .title {
-  font-size: 27px;
-  letter-spacing: 2px;
-  font-weight: 700;
+  font-size: 46px;
+  font-family: Saudagar;
+  line-height: 32px;
 }
 .text {
   text-align: center;

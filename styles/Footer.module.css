@@ -1,0 +1,18 @@
+.footer {
+  height: 300px;
+  padding: 25px;
+  background-color: #dcd5ce;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.title {
+  font-family: Saudagar;
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  /* height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
