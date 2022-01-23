@@ -46,10 +46,13 @@ const Image = ({ image }) => {
 
 export default function Gallery() {
   return (
-    <div className={styles.gallery}>
-      {images.map((image) => (
-        <Image image={image} key={image} />
-      ))}
+    <div className={styles.galleryWrapper}>
+      <div className={styles.title}>Baked to order by Leah, with love</div>
+      <div className={styles.gallery}>
+        {images.map((image) => (
+          <Image image={image} key={image} />
+        ))}
+      </div>
     </div>
   );
 }

@@ -16,3 +16,9 @@
   font-weight: 200;
   font-size: 16px;
 }
+
+@media (max-width: 720px) {
+  .info {
+    width: 250px;
+  }
+}

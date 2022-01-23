@@ -4,16 +4,15 @@
     justify-content: flex-end;
     height: 200px;
     padding: 35px;
-    background-color: #dcd5ce;
 }
 .footer {
     display: flex;
-
+    flex-direction: column;
 }
 .icons {
   width: 100%;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   z-index: 3;
   align-items: center;
 }
@@ -23,7 +22,8 @@
 }
 .title {
     font-family: Saudagar;
-    color: white;
-    font-size: 32px;
+    font-size: 20px;
     width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
 }

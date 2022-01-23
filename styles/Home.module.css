@@ -8,6 +8,7 @@
   display: flex;
   justify-content: right;
   pointer-events: none;
+  z-index: -1;
 }
 .headshot {
   justify-content: right;
@@ -56,5 +57,16 @@
   font-size: 18px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
+  .headshot {
+    justify-content: center;
+  }
+  .smallImgContainer {
+    visibility: hidden;
+  }
+  .title {
+    font-size: 87px;
+    z-index: 2;
+    line-height: 97px;
+  }
 }

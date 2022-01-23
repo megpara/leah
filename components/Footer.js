@@ -12,7 +12,7 @@ export default function Footer() {
             target="_blank"
             href="https://www.instagram.com/cookiesby_leahlane/"
           >
-            <img className={styles.icon} src="/insta-logo-white.png" />
+            <img className={styles.icon} src="/insta-logo.png" />
           </a>
         </div>
       </div>

@@ -1,11 +1,31 @@
+.galleryWrapper {
+  padding: 80px 0;
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 80px 0;
 }
 .gallery img {
   flex: 0 0 30%;
   width: 100px;
   margin: 15px;
+}
+.title {
+  text-align: center;
+  font-family: Saudagar;
+  font-size: 48px;
+  padding: 20px 0 80px 0;
+  max-width: 500px;
+  margin: auto;
+}
+
+@media (max-width: 720px) {
+  .title {
+    width: 300px;
+    font-size: 40px;
+  }
+  .gallery img {
+    flex: 0 0 80%;
+  }
 }
