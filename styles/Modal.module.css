@@ -13,11 +13,13 @@
   font-family: "Work Sans", sans-serif;
   color: white;
   z-index: 2;
+  opacity: 1;
 }
 .exit {
   position: absolute;
   top: 25px;
   right: 25px;
+  cursor: pointer;
 }
 .modal img {
   width: 32px;

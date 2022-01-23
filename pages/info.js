@@ -2,6 +2,7 @@ import Footer from "../components/Footer";
 import SecondaryHeader from "../components/SecondaryHeader";
 import Layout from "../components/Layout";
 import styles from "../styles/Info.module.css";
+import { motion } from "framer-motion";
 
 const prices = [
   {
@@ -22,20 +23,25 @@ export default function Info() {
   return (
     <Layout>
       <SecondaryHeader />
-      <div className={styles.info}>
+      <motion.div
+        className={styles.info}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "easeIn", duration: "0.5" }}
+      >
         {prices.map((price) => (
           <div className={styles.blurb}>
             <div className={styles.subtitle}>{price.title}</div>
             <div className={styles.text}>{price.description}</div>
           </div>
         ))}
-      </div>
-      <div
-        className={styles.text}
-        style={{ textAlign: "center", paddingBottom: "100px" }}
-      >
-        Don't see what you're looking for? Just ask!
-      </div>
+        <div
+          className={styles.text}
+          style={{ textAlign: "center", paddingTop: "100px" }}
+        >
+          Don't see what you're looking for? Just ask!
+        </div>
+      </motion.div>
       <Footer />
     </Layout>
   );

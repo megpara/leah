@@ -12,6 +12,7 @@
   display: inline;
   padding-right: 15px;
   text-transform: lowercase;
+  cursor: pointer;
 }
 .icons {
   width: 100%;

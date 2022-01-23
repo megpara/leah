@@ -1,4 +1,4 @@
-.header {
+.headerWrapper {
   height: 200px;
   padding: 25px;
   background-color: #dcd5ce;
@@ -10,4 +10,30 @@
   font-size: 48px;
   padding-top: 25px;
   line-height: 1;
+}
+.header {
+  padding: 35px;
+  display: flex;
+}
+.menu {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.menuItem {
+  display: inline;
+  padding-right: 15px;
+  text-transform: lowercase;
+  cursor: pointer;
+}
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  z-index: 3;
+}
+.icon {
+  height: 20px;
+  margin-left: 12px;
 }
