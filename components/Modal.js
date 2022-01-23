@@ -5,7 +5,9 @@ export default function Modal() {
     <div className={styles.modal}>
       <div className={styles.exit}>X</div>
       <div className={styles.title}>Say hello!</div>
-      <img src="email_icon_white.png" />
+      <a href="mailto:leah05miller@gmail.com">
+        <img src="email_icon_white.png" />
+      </a>
       <div className={styles.text}>Reach out, I'd love to hear from you.</div>
     </div>
   );

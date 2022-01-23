@@ -7,6 +7,7 @@
   width: 100%;
   display: flex;
   justify-content: right;
+  pointer-events: none;
 }
 .headshot {
   justify-content: right;
@@ -29,6 +30,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  pointer-events: none;
 }
 .title {
   color: white;
@@ -45,19 +47,19 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  color: #5880a5;
+  color: white;
   text-transform: lowercase;
 }
 .scroll {
   font-family: 'Work Sans';
-  font-weight: 200;
+  font-weight: 400;
   font-size: 18px;
 }
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 50px 0;
+  padding: 80px 0;
 }
 .gallery img {
   flex: 0 0 30%;

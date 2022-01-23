@@ -1,0 +1,13 @@
+.header {
+  height: 200px;
+  padding: 25px;
+  background-color: #dcd5ce;
+}
+.title {
+  color: white;
+  font-family: Saudagar;
+  text-align: center;
+  font-size: 48px;
+  padding-top: 25px;
+  line-height: 1;
+}

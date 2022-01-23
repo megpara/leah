@@ -12,6 +12,7 @@
   padding: 60px 25px;
   font-family: "Work Sans", sans-serif;
   color: white;
+  z-index: 2;
 }
 .exit {
   position: absolute;
@@ -23,11 +24,13 @@
   padding: 16px 0;
 }
 .title {
-  font-size: 46px;
+  font-size: 40px;
+  letter-spacing: 1px;
   font-family: Saudagar;
   line-height: 32px;
 }
 .text {
   text-align: center;
-  font-size: 17px;
+  font-size: 19px;
+  font-weight: 300;
 }
