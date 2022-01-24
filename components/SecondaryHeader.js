@@ -4,9 +4,6 @@ import Header from "./Header";
 export default function SecondaryHeader() {
   return (
     <div className={styles.headerWrapper}>
-      <a href="/">
-        <div className={styles.title}>Cookies by Leah Lane</div>
-      </a>
       <div className={styles.header}>
         <div className={styles.menu}>
           <a className={styles.menuItem} href="/gallery">
@@ -30,6 +27,9 @@ export default function SecondaryHeader() {
           </a>
         </div>
       </div>
+      <a href="/">
+        <div className={styles.title}>Cookies by Leah Lane</div>
+      </a>
     </div>
   );
 }

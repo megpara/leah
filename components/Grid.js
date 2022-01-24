@@ -7,12 +7,21 @@ const images = [
   "/IMG_3000.JPG",
   "/IMG_3170.JPG",
   "/IMG_3175.JPG",
+  "/IMG_2988.JPG",
+  "/IMG_6632.JPG",
+  "/IMG_0149.JPG",
   "/IMG_3423.JPG",
   "/IMG_3988.JPG",
   "/IMG_4472.JPG",
   "/IMG_4924.JPG",
   "/IMG_4938.JPG",
   "/IMG_4977.JPG",
+  "/IMG_5177.JPG",
+  "/IMG_4000.JPG",
+  "/IMG_2519.JPG",
+  "/FullSizeRender.JPG",
+  "/IMG_4314.JPG",
+  "/IMG_3907.JPG",
 ];
 
 const Image = ({ image }) => {
