@@ -47,7 +47,12 @@ const Image = ({ image }) => {
 export default function Gallery() {
   return (
     <div className={styles.galleryWrapper}>
-      <div className={styles.title}>Baked to order by Leah, with love</div>
+      <div className={styles.titleWrapper}>
+        <div className={styles.title}>Baked to order by Leah, with love</div>
+        <a href="/order">
+          <button className={styles.orderButton}>Place an order</button>
+        </a>
+      </div>
       <div className={styles.gallery}>
         {images.map((image) => (
           <Image image={image} key={image} />
