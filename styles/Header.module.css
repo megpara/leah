@@ -2,6 +2,13 @@
   padding: 35px;
   display: flex;
 }
+.title {
+  color: white;
+  font-family: Saudagar;
+  font-size: 32px;
+  line-height: 1;
+  width: 110px;
+}
 .menu {
   color: white;
   font-family: "Work Sans", sans-serif;

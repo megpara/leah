@@ -1,13 +1,13 @@
 .headerWrapper {
-  height: 200px;
+  height: 100px;
   background-color: #dcd5ce;
 }
 .title {
   color: white;
   font-family: Saudagar;
-  text-align: center;
-  font-size: 48px;
+  font-size: 32px;
   line-height: 1;
+  width: 110px;
 }
 .header {
   padding: 35px;

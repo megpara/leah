@@ -1,0 +1,50 @@
+.order {
+  max-width: 550px;
+  margin: auto;
+  padding: 75px 0 0;
+}
+.heading {
+  text-align: center;
+  font-family: Saudagar;
+  font-size: 34px;
+  padding: 0 0 20px 0;
+  max-width: 500px;
+  margin: auto;
+  letter-spacing: 1px;
+}
+.inputGroup {
+  display: block;
+  padding: 10px 0;
+}
+.inputGroup label {
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 10px;
+  display: block;
+  font-weight: 200;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.inputGroup input {
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  font-family: "Work Sans", sans-serif;
+}
+.inputGroup input:focus {
+  outline: none;
+}
+.submit {
+  border: none;
+  color: white;
+  background: #b6c58e;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Work Sans";
+  margin: 20px 0 0;
+  cursor: pointer;
+}
+.submit:hover {
+  background: #a1af7c;
+}

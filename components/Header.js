@@ -3,6 +3,9 @@ import styles from "../styles/Header.module.css";
 export default function Header() {
   return (
     <div className={styles.header}>
+      <a href="/">
+        <div className={styles.title}>C x L L</div>
+      </a>
       <div className={styles.menu}>
         <a
           className={styles.menuItem}

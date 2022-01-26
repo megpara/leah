@@ -56,6 +56,7 @@ export default function Info() {
         animate={{ opacity: 1 }}
         transition={{ ease: "easeIn", duration: "0.5" }}
       >
+        <div className={styles.heading}>Pricing & Info</div>
         <div className={styles.title}>By the dozen</div>
         {cookies.map((option) => (
           <div className={styles.blurb}>
