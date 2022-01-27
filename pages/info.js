@@ -72,10 +72,15 @@ export default function Info() {
           </div>
         ))}
         <div
-          className={styles.text}
-          style={{ textAlign: "center", paddingTop: "50px" }}
+          className={styles.subtitle}
+          style={{ textAlign: "center", padding: "50px 0 20px" }}
         >
           Don't see what you're looking for? Just ask!
+        </div>
+        <div className={styles.orderButtonWrapper}>
+          <a href="/order">
+            <button className={styles.orderButton}>Place an order</button>
+          </a>
         </div>
       </motion.div>
       <Footer />
