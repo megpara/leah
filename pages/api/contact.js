@@ -17,7 +17,7 @@ export default async (req, res) => {
 
   const mailData = {
     from: "leahlanecookieorders@gmail.com",
-    to: "meganparadowski@gmail.com",
+    to: "leah05miller@gmail.com",
     subject: `Cookies by Leah Lane Order!`,
     html: `
     <div><strong>Item:</strong></div>
