@@ -12,6 +12,7 @@
 }
 .headshot {
   justify-content: right;
+  height: 100%;
 }
 .smallImgContainer {
   width: 100%;

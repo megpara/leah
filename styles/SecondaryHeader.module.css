@@ -33,7 +33,9 @@
 }
 .icon {
   height: 20px;
-  margin-left: 12px;
+  position: absolute;
+  top: 35px;
+  right: 35px;
 }
 @media (max-width: 720px) {
   .headerWrapper {
