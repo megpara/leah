@@ -1,7 +1,7 @@
 .order {
   max-width: 550px;
   margin: auto;
-  padding: 75px 0 0;
+  padding-top: 50px;
 }
 .heading {
   text-align: center;
@@ -51,4 +51,15 @@
 .notification {
   font-family: "Work Sans", sans-serif;
   font-weight: 200;
+}
+@media (max-width: 720px) {
+  .order {
+    width: 300px;
+    margin: auto;
+  }
+  .inputField {
+      color: black;
+      background-color: unset;
+      border-radius: 5px;
+  }
 }

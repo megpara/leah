@@ -32,5 +32,13 @@
   margin-left: 12px;
 }
 @media (max-width: 720px) {
-  
+  .header {
+    width: 100%;
+    padding: 20px;
+  }
+  .icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
 }
