@@ -29,6 +29,7 @@
   border: 1px solid black;
   padding: 10px;
   font-family: "Work Sans", sans-serif;
+  border-radius: 5px;
 }
 .inputField:focus {
   outline: none;
@@ -58,8 +59,8 @@
     margin: auto;
   }
   .inputField {
-      color: black;
-      background-color: unset;
-      border-radius: 5px;
+    color: black;
+    background-color: unset;
+    border-radius: 5px;
   }
 }

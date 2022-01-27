@@ -28,6 +28,7 @@ const items = [
 export default function Order() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
   const [item, setItem] = useState("");
   const [quantity, setQuantity] = useState("");
   const [customization, setCustomization] = useState("");
@@ -43,6 +44,7 @@ export default function Order() {
     let data = {
       name,
       email,
+      phone,
       item,
       quantity,
       customization,
@@ -88,6 +90,18 @@ export default function Order() {
                 setEmail(e.currentTarget.value);
               }}
               name="email"
+              className={styles.inputField}
+            />
+          </div>
+
+          <div className={styles.inputGroup}>
+            <label htmlFor="phone">Phone Number</label>
+            <input
+              type="text"
+              onChange={(e) => {
+                setPhone(e.currentTarget.value);
+              }}
+              name="phone"
               className={styles.inputField}
             />
           </div>

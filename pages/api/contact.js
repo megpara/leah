@@ -2,7 +2,6 @@ require("dotenv").config();
 const PASSWORD = process.env.password;
 
 export default async (req, res) => {
-  console.log(PASSWORD);
   console.log(req.body);
 
   let nodemailer = require("nodemailer");
@@ -32,7 +31,8 @@ export default async (req, res) => {
     <br>
     <div><strong>Customer Info:</strong></div>
     <div>${req.body.name}</div>
-    <div>${req.body.email}</div>`,
+    <div>${req.body.email}</div>
+    <div>${req.body.phone}</div>`,
   };
 
   transporter.sendMail(mailData, function (err, info) {
