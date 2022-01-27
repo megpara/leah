@@ -42,11 +42,16 @@
 }
 
 @media (max-width: 720px) {
+  .galleryWrapper {
+    padding: 50px 0;
+  }
+  .orderButton {
+    margin-bottom: 50px;
+  }
   .title {
-    width: 300px;
-    font-size: 40px;
+    font-size: 32px;
   }
   .gallery img {
-    flex: 0 0 80%;
+    flex: 0 0 85%;
   }
 }
