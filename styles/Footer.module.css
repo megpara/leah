@@ -26,3 +26,8 @@
     text-align: center;
     padding-bottom: 10px;
 }
+@media (max-width: 720px) {
+  .footerWrapper {
+    height: 150px;
+  }
+}
